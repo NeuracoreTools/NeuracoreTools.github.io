@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuraCore Tools</title>
+
+  <meta name="description" content="NeuraCore Tools builds simple, offline-first Android tools with privacy in mind." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Google verification meta -->
+  <!-- <meta name="google-site-verification" content="YOUR_CODE_HERE" /> -->
+
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: rgba(255,255,255,0.06);
+      --border: rgba(255,255,255,0.12);
+      --text: rgba(255,255,255,0.92);
+      --muted: rgba(255,255,255,0.65);
+      --radius: 18px;
+      --max-width: 960px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(800px 500px at 20% 10%, rgba(102,182,255,0.15), transparent 60%),
+        radial-gradient(600px 400px at 80% 0%, rgba(107,226,197,0.12), transparent 55%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 56px 20px 64px;
+    }
+
+    header { margin-bottom: 48px; }
+
+    h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+
+    .subtitle {
+      margin-top: 12px;
+      max-width: 640px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    section { margin-bottom: 48px; }
+
+    .section-title {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 15px;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .card img {
+      margin-top: 14px;
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      display: block;
+    }
+
+    .team-layout {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 16px;
+    }
+
+    .team-text {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    @media (max-width: 720px) {
+      .team-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    footer a {
+      color: inherit;
+      text-decoration: none;
+    }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>NeuraCore Tools</h1>
+      <p class="subtitle">
+        Building simple, offline-first Android tools with privacy in mind.
+      </p>
+    </header>
+
+    <section>
+      <div class="section-title">Our Core Principles</div>
+      <div class="grid-3">
+
+        <div class="card">
+          <h3>Core Value · Simplicity</h3>
+          <p>
+            We build simple and reliable tools that focus on solving specific
+            problems without unnecessary features or complexity.
+          </p>
+          <img src="images/value-simplicity.png" alt="Simplicity in product design">
+        </div>
+
+        <div class="card">
+          <h3>Design Principle · Privacy & Offline First</h3>
+          <p>
+            Our applications are designed to work offline whenever possible
+            and do not require user accounts or unnecessary data collection.
+          </p>
+          <img src="images/privacy-offline.png" alt="Privacy and offline-first design">
+        </div>
+
+        <div class="card">
+          <h3>Long-Term Commitment · Reliability</h3>
+          <p>
+            We prioritize long-term stability and maintainability over
+            short-term trends or rapid feature expansion.
+          </p>
+          <img src="images/long-term.png" alt="Long-term reliable software development">
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Our Team</div>
+      <div class="card team-layout">
+
+        <div class="team-text">
+          NeuraCore Tools is an independent development team focused on Android
+          utility applications. We operate with a small and focused structure,
+          allowing us to take clear responsibility for product quality,
+          updates, and long-term support.
+        </div>
+
+        <img src="images/team.png" alt="NeuraCore Tools workspace or team environment">
+
+      </div>
+    </section>
+
+    <footer>
+      <div>© NeuraCore Tools</div>
+      <div>
+        Contact:
+        <a href="mailto:lovewhatilove37@gmail.com">
+          lovewhatilove37@gmail.com
+        </a>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
